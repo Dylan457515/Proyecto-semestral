@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 nov de 2023, 18:16:55
+    Author     : dylan
+*/
+
+body {
+    overflow: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/fondo_informe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(fondo_informe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.box {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.box p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.box a {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+
+.box a:hover {
+    background-color: #2186c3;
+}
